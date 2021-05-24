@@ -11,7 +11,7 @@ function Posts({setCurrentId}) {
         <div>
             {
                 !posts.length? <CircularProgress /> : 
-                <Grid>
+                <Grid className={classes.container} container alignItems="stretch" spacing={3}>
                     {
                         posts.map( post => (
                             <Grid key="_id" xs="12" item sm="6" >
