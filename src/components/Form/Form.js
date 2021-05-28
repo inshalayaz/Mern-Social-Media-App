@@ -3,7 +3,7 @@ import useStyles from './Styles'
 import { Paper, TextField, Button, Typography } from '@material-ui/core'
 import FileBase64 from 'react-file-base64'
 import { useDispatch, useSelector } from 'react-redux'
-import { createPost,updatePost } from '../actions/posts'
+import { createPost,updatePost } from '../../actions/posts'
  
 function Form({ currentId, setCurrentId }) {
     const classes = useStyles();
