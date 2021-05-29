@@ -26,7 +26,7 @@ function NavBar() {
         setUser(null)
 
     }
-    console.log(user)    
+    //console.log(user)    
     return (
         <AppBar className={classes.appBar} position='static' color='inherit' >
             <div className={classes.brandContainer}>
